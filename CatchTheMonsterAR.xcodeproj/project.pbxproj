@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025EFF892A5C23BA0054B5EB /* CameraAuthorizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025EFF882A5C23BA0054B5EB /* CameraAuthorizationViewModel.swift */; };
+		025EFF8D2A5C2F660054B5EB /* NoCameraPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025EFF8C2A5C2F660054B5EB /* NoCameraPermissionView.swift */; };
+		02A208CB2A8BD462009FCC26 /* GOODDP__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 02A208C92A8BD462009FCC26 /* GOODDP__.TTF */; };
+		02A208CC2A8BD462009FCC26 /* GOODDC__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 02A208CA2A8BD462009FCC26 /* GOODDC__.TTF */; };
+		02BBB7D02A49F70B00142554 /* MonsterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BBB7CF2A49F70B00142554 /* MonsterModel.swift */; };
+		02BBB7D62A4B4E9200142554 /* MonsterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BBB7D52A4B4E9200142554 /* MonsterCell.swift */; };
+		02BBB7DA2A4BA91F00142554 /* ARCaptureMonsterViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BBB7D92A4BA91F00142554 /* ARCaptureMonsterViewContainer.swift */; };
+		02BBB7DD2A4E1A8200142554 /* MonsterDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BBB7DC2A4E1A8200142554 /* MonsterDescriptionView.swift */; };
+		02BBB7E12A54666A00142554 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BBB7E02A54666A00142554 /* ScreenView.swift */; };
+		02CAF6352A30A47E00DE110B /* CatchTheMonsterARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF6342A30A47E00DE110B /* CatchTheMonsterARApp.swift */; };
+		02CAF6372A30A47E00DE110B /* LocationRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF6362A30A47E00DE110B /* LocationRequestView.swift */; };
+		02CAF6392A30A48100DE110B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02CAF6382A30A48100DE110B /* Assets.xcassets */; };
+		02CAF63C2A30A48100DE110B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02CAF63B2A30A48100DE110B /* Preview Assets.xcassets */; };
+		02CAF6452A30A55500DE110B /* NoLocationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF6442A30A55500DE110B /* NoLocationPermissionView.swift */; };
+		02CAF6472A30A8EE00DE110B /* MapMonstersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF6462A30A8EE00DE110B /* MapMonstersView.swift */; };
+		02CAF64B2A30A9C600DE110B /* CaptureMonsterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF64A2A30A9C600DE110B /* CaptureMonsterView.swift */; };
+		02CAF64D2A30A9EC00DE110B /* TeamMonstersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF64C2A30A9EC00DE110B /* TeamMonstersView.swift */; };
+		02CAF64F2A30E3AE00DE110B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF64E2A30E3AE00DE110B /* Extension.swift */; };
+		02CAF6552A32140A00DE110B /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF6542A32140A00DE110B /* LocationViewModel.swift */; };
+		02CAF6572A323F7C00DE110B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF6562A323F7C00DE110B /* ContentView.swift */; };
+		02CAF65D2A3E254700DE110B /* MonstersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF65C2A3E254700DE110B /* MonstersViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		025EFF882A5C23BA0054B5EB /* CameraAuthorizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAuthorizationViewModel.swift; sourceTree = "<group>"; };
+		025EFF8C2A5C2F660054B5EB /* NoCameraPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCameraPermissionView.swift; sourceTree = "<group>"; };
+		02A208C92A8BD462009FCC26 /* GOODDP__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOODDP__.TTF; sourceTree = "<group>"; };
+		02A208CA2A8BD462009FCC26 /* GOODDC__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOODDC__.TTF; sourceTree = "<group>"; };
+		02BBB7CF2A49F70B00142554 /* MonsterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterModel.swift; sourceTree = "<group>"; };
+		02BBB7D52A4B4E9200142554 /* MonsterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCell.swift; sourceTree = "<group>"; };
+		02BBB7D92A4BA91F00142554 /* ARCaptureMonsterViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCaptureMonsterViewContainer.swift; sourceTree = "<group>"; };
+		02BBB7DC2A4E1A8200142554 /* MonsterDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDescriptionView.swift; sourceTree = "<group>"; };
+		02BBB7E02A54666A00142554 /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		02C3EA612A733327005E7B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		02CAF6312A30A47E00DE110B /* CatchTheMonsterAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheMonsterAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CAF6342A30A47E00DE110B /* CatchTheMonsterARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheMonsterARApp.swift; sourceTree = "<group>"; };
+		02CAF6362A30A47E00DE110B /* LocationRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRequestView.swift; sourceTree = "<group>"; };
+		02CAF6382A30A48100DE110B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02CAF63B2A30A48100DE110B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02CAF6442A30A55500DE110B /* NoLocationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoLocationPermissionView.swift; sourceTree = "<group>"; };
+		02CAF6462A30A8EE00DE110B /* MapMonstersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMonstersView.swift; sourceTree = "<group>"; };
+		02CAF64A2A30A9C600DE110B /* CaptureMonsterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureMonsterView.swift; sourceTree = "<group>"; };
+		02CAF64C2A30A9EC00DE110B /* TeamMonstersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMonstersView.swift; sourceTree = "<group>"; };
+		02CAF64E2A30E3AE00DE110B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		02CAF6542A32140A00DE110B /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		02CAF6562A323F7C00DE110B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02CAF65C2A3E254700DE110B /* MonstersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02CAF62E2A30A47E00DE110B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A208C82A8BD40F009FCC26 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				02A208C92A8BD462009FCC26 /* GOODDP__.TTF */,
+				02A208CA2A8BD462009FCC26 /* GOODDC__.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		02BBB7C92A45B63600142554 /* LocationRequest */ = {
+			isa = PBXGroup;
+			children = (
+				02CAF6542A32140A00DE110B /* LocationViewModel.swift */,
+				02CAF6362A30A47E00DE110B /* LocationRequestView.swift */,
+				02CAF6442A30A55500DE110B /* NoLocationPermissionView.swift */,
+			);
+			path = LocationRequest;
+			sourceTree = "<group>";
+		};
+		02BBB7CA2A45B68100142554 /* MapWithMonsters */ = {
+			isa = PBXGroup;
+			children = (
+				02BBB7CF2A49F70B00142554 /* MonsterModel.swift */,
+				02CAF65C2A3E254700DE110B /* MonstersViewModel.swift */,
+				02CAF6462A30A8EE00DE110B /* MapMonstersView.swift */,
+			);
+			path = MapWithMonsters;
+			sourceTree = "<group>";
+		};
+		02BBB7D12A4A30A600142554 /* CaptureMonster */ = {
+			isa = PBXGroup;
+			children = (
+				025EFF882A5C23BA0054B5EB /* CameraAuthorizationViewModel.swift */,
+				025EFF8C2A5C2F660054B5EB /* NoCameraPermissionView.swift */,
+				02BBB7D92A4BA91F00142554 /* ARCaptureMonsterViewContainer.swift */,
+				02CAF64A2A30A9C600DE110B /* CaptureMonsterView.swift */,
+			);
+			path = CaptureMonster;
+			sourceTree = "<group>";
+		};
+		02BBB7D42A4B4E6500142554 /* MonsterTeam */ = {
+			isa = PBXGroup;
+			children = (
+				02CAF64C2A30A9EC00DE110B /* TeamMonstersView.swift */,
+				02BBB7D52A4B4E9200142554 /* MonsterCell.swift */,
+				02BBB7DC2A4E1A8200142554 /* MonsterDescriptionView.swift */,
+			);
+			path = MonsterTeam;
+			sourceTree = "<group>";
+		};
+		02BBB7DB2A4C7E8700142554 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				02CAF64E2A30E3AE00DE110B /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		02CAF6282A30A47E00DE110B = {
+			isa = PBXGroup;
+			children = (
+				02CAF6332A30A47E00DE110B /* CatchTheMonsterAR */,
+				02CAF6322A30A47E00DE110B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02CAF6322A30A47E00DE110B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02CAF6312A30A47E00DE110B /* CatchTheMonsterAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02CAF6332A30A47E00DE110B /* CatchTheMonsterAR */ = {
+			isa = PBXGroup;
+			children = (
+				02CAF6342A30A47E00DE110B /* CatchTheMonsterARApp.swift */,
+				02BBB7E02A54666A00142554 /* ScreenView.swift */,
+				02CAF6562A323F7C00DE110B /* ContentView.swift */,
+				02BBB7C92A45B63600142554 /* LocationRequest */,
+				02BBB7CA2A45B68100142554 /* MapWithMonsters */,
+				02BBB7D12A4A30A600142554 /* CaptureMonster */,
+				02BBB7D42A4B4E6500142554 /* MonsterTeam */,
+				02BBB7DB2A4C7E8700142554 /* Extension */,
+				02A208C82A8BD40F009FCC26 /* Fonts */,
+				02CAF6382A30A48100DE110B /* Assets.xcassets */,
+				02C3EA612A733327005E7B4A /* Info.plist */,
+				02CAF63A2A30A48100DE110B /* Preview Content */,
+			);
+			path = CatchTheMonsterAR;
+			sourceTree = "<group>";
+		};
+		02CAF63A2A30A48100DE110B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02CAF63B2A30A48100DE110B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02CAF6302A30A47E00DE110B /* CatchTheMonsterAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CAF63F2A30A48100DE110B /* Build configuration list for PBXNativeTarget "CatchTheMonsterAR" */;
+			buildPhases = (
+				02CAF62D2A30A47E00DE110B /* Sources */,
+				02CAF62E2A30A47E00DE110B /* Frameworks */,
+				02CAF62F2A30A47E00DE110B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatchTheMonsterAR;
+			productName = CatchTheMonsterAR;
+			productReference = 02CAF6312A30A47E00DE110B /* CatchTheMonsterAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02CAF6292A30A47E00DE110B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					02CAF6302A30A47E00DE110B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 02CAF62C2A30A47E00DE110B /* Build configuration list for PBXProject "CatchTheMonsterAR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02CAF6282A30A47E00DE110B;
+			productRefGroup = 02CAF6322A30A47E00DE110B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02CAF6302A30A47E00DE110B /* CatchTheMonsterAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02CAF62F2A30A47E00DE110B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CAF63C2A30A48100DE110B /* Preview Assets.xcassets in Resources */,
+				02CAF6392A30A48100DE110B /* Assets.xcassets in Resources */,
+				02A208CC2A8BD462009FCC26 /* GOODDC__.TTF in Resources */,
+				02A208CB2A8BD462009FCC26 /* GOODDP__.TTF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02CAF62D2A30A47E00DE110B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BBB7DA2A4BA91F00142554 /* ARCaptureMonsterViewContainer.swift in Sources */,
+				02BBB7D62A4B4E9200142554 /* MonsterCell.swift in Sources */,
+				02CAF64B2A30A9C600DE110B /* CaptureMonsterView.swift in Sources */,
+				02CAF65D2A3E254700DE110B /* MonstersViewModel.swift in Sources */,
+				02CAF6372A30A47E00DE110B /* LocationRequestView.swift in Sources */,
+				02CAF64D2A30A9EC00DE110B /* TeamMonstersView.swift in Sources */,
+				02BBB7DD2A4E1A8200142554 /* MonsterDescriptionView.swift in Sources */,
+				025EFF8D2A5C2F660054B5EB /* NoCameraPermissionView.swift in Sources */,
+				02CAF6352A30A47E00DE110B /* CatchTheMonsterARApp.swift in Sources */,
+				02BBB7D02A49F70B00142554 /* MonsterModel.swift in Sources */,
+				02BBB7E12A54666A00142554 /* ScreenView.swift in Sources */,
+				02CAF6472A30A8EE00DE110B /* MapMonstersView.swift in Sources */,
+				02CAF6572A323F7C00DE110B /* ContentView.swift in Sources */,
+				02CAF6452A30A55500DE110B /* NoLocationPermissionView.swift in Sources */,
+				02CAF6552A32140A00DE110B /* LocationViewModel.swift in Sources */,
+				02CAF64F2A30E3AE00DE110B /* Extension.swift in Sources */,
+				025EFF892A5C23BA0054B5EB /* CameraAuthorizationViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02CAF63D2A30A48100DE110B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02CAF63E2A30A48100DE110B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02CAF6402A30A48100DE110B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CatchTheMonsterAR/Preview Content\"";
+				DEVELOPMENT_TEAM = VFMBL3LXSP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheMonsterAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Приложение использует мобильный интернет для загрузки данных";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ваше местоположение нужно для отображения ближайших к вам монстров на карте";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SkillBox.CatchTheMonsterAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		02CAF6412A30A48100DE110B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CatchTheMonsterAR/Preview Content\"";
+				DEVELOPMENT_TEAM = VFMBL3LXSP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheMonsterAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Приложение использует мобильный интернет для загрузки данных";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ваше местоположение нужно для отображения ближайших к вам монстров на карте";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SkillBox.CatchTheMonsterAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02CAF62C2A30A47E00DE110B /* Build configuration list for PBXProject "CatchTheMonsterAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CAF63D2A30A48100DE110B /* Debug */,
+				02CAF63E2A30A48100DE110B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02CAF63F2A30A48100DE110B /* Build configuration list for PBXNativeTarget "CatchTheMonsterAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CAF6402A30A48100DE110B /* Debug */,
+				02CAF6412A30A48100DE110B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02CAF6292A30A47E00DE110B /* Project object */;
+}
