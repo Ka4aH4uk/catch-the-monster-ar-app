@@ -1,7 +1,7 @@
 # catch-the-monster-ar-app
 ![Alt-текст](https://github.com/Ka4aH4uk/catch-the-monster-ar-app/blob/master/banner.png?raw=true)
 
-##### Итоговый аттестационный проект - небольшая мобильная игра для iOS, в которой пользователь может ловить монстров в дополненной реальности на физической карте рядом с собой (аналог всеми известной Pokemon Go). Приложение написано на SwiftUI с применением ARKit | The final certification project is a small mobile game for iOS, in which the user can catch monsters in augmented reality on a physical map next to him (an analogue of the well-known Pokémon Go). The application is written in SwiftUI using ARKit
+##### Небольшая мобильная игра для iOS, в которой пользователь может ловить монстров в дополненной реальности на физической карте рядом с собой (аналог всеми известной Pokemon Go). Приложение написано на SwiftUI с применением ARKit | A small mobile game for iOS, in which the user can catch monsters in augmented reality on a physical map next to him (an analogue of the well-known Pokémon Go). The application is written in SwiftUI using ARKit
 ____
 ### Описание
 
