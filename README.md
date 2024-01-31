@@ -25,7 +25,7 @@ ____
 
 ### Дизайн в Figma
 
-Дизайн этого приложения базируется на макете Figma, доступном по [этой ссылке](https://www.figma.com/file/sJOYVgkgYGglM0kwlSUXoR/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%BD%D1%8B%D1%85-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2?node-id=23%3A848&mode=dev). 
+Дизайн этого приложения базируется на макете Figma, доступном по [этой ссылке](https://www.figma.com/file/KZwhYWES0CsOlPm34DI0ed/Catch-The-Monster's?type=design&node-id=23%3A589&mode=design&t=KqZabtOEh5mgPb83-1). 
 
 ### Проблемы и решения
 
